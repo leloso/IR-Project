@@ -28,11 +28,13 @@ This project requires specific dependencies that can be installed using either `
 1. **Clone the Repository**:
    Open your Anaconda Prompt or command prompt and run:
    ```bash
-   git clone https://github.com/username/repo-name.git
+   git clone https://github.com/leloso/IR-Project.git
    cd repo-name
    conda env create -f environment.yml
    conda activate myenv
-   conda list #έλεγχχος αν έχουν γίνει όλα καλά
+   conda list #έλεγχχος αν έχουν γίνει όλα καλά bash```
+   
+   Updating the Environment (if needed): If there are updates to the environment.yml file or if you add new dependencies later, you can update the environment with:
 Το layout του working directory θα πρέπει να έχει την γενική μορφή:
 IRProject/
 |--src/
