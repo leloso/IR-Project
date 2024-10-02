@@ -1,21 +1,38 @@
 # IR-Project
 Information Retrieval Project
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Setting Up the Environment](#setting-up-the-environment)
+  - [Option 1: Using Conda](#option-1-using-conda)
+  - [Option 2: Using Pip](#option-2-using-pip)
+- [Running the Project](#running-the-project)
+- [Additional Notes](#additional-notes)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Prerequisites
 
-Make sure you have the following installed on your system:
+Ensure you have the following installed on your system:
 
 - [Git](https://git-scm.com/downloads)
-- [Anaconda](https://www.anaconda.com/products/distribution) (for `conda` users) or [Python](https://www.python.org/downloads/) (for `pip` users)
+- [Anaconda](https://www.anaconda.com/products/distribution) (if using `conda`)
+- [Python](https://www.python.org/downloads/) (if using `pip`)
 
 ## Setting Up the Environment
 
+This project requires specific dependencies that can be installed using either `conda` or `pip`. Follow the instructions for the package manager you prefer.
+
+### Option 1: Using Conda
+
 1. **Clone the Repository**:
-   Open your command prompt or Anaconda Prompt and run:
+   Open your Anaconda Prompt or command prompt and run:
    ```bash
    git clone https://github.com/username/repo-name.git
    cd repo-name
-
- 
+   conda env create -f environment.yml
+   conda activate myenv
+   conda list #έλεγχχος αν έχουν γίνει όλα καλά
 Το layout του working directory θα πρέπει να έχει την γενική μορφή:
 IRProject/
 |--src/
